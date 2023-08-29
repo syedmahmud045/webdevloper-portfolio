@@ -90,11 +90,22 @@ nav a {
 }
 
 /* main section  */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section  */
 .about{
     margin: 130PX 0;
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.about-info{
+    text-align: center;
 }
